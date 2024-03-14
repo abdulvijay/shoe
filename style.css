@@ -1,0 +1,72 @@
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .2rem 2rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background-image: url(ab3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navbar .navbar-brand{
+    font-size:25px ;
+    font-weight: 800;
+     color:green ;
+}
+#About{
+    background: linear-gradient(to right,#7b6970,#705c60 100%);
+    color: rgb(195, 222, 222);
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+navbar:hover{
+    background-color: blue;
+}
+#Product{
+    background-color: #e5e5e5;
+}
+#Product h1{
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-top: 20px;
+    padding: 5%;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px 60px;
+}
+#Product img{
+    width: 200px;
+    height: 200px;
+
+}
+#home h1{
+    font-size: 100px;
+    color:white;
+    letter-spacing: 7px;
+}
